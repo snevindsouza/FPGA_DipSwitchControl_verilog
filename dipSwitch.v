@@ -1,7 +1,7 @@
 module dipSwitch (
-	input clk, 
-  input [7:0] switch,
-  output reg [3:0] ctrl,
+        input clk, 
+        input [7:0] switch,
+        output reg [3:0] ctrl,
 	output reg [7:0] segment
 );
   
